@@ -1,0 +1,8 @@
+Element Name	Element Type	By Type	By Value	Label to Upper	Description
+LogonUserName	Link	xpath	//em[text()='?']	N	General
+M_Age	Link	xpath	//a[contains(.,'?')]	N	General
+M_Email	plaintext	xpath	//?[text()='?']	N	General
+M_Phone	plaintext	xpath	//body	N	General
+M_Agree	Link	LinkText	?	N	General
+M_Reset	Button	xpath	//button[contains(@class, 'save-btn') and not(ancestor::div[contains(@style, 'display: none')])]	N	Avoid select hidden element
+M_Content	HiddenElement	xpath	//a[contains(.,'?')]/../../td[@class='action_column']//li[2]/a	N	Automatic Exemption Policies>Gear Button:Delete

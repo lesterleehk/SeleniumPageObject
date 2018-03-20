@@ -1,0 +1,2 @@
+FuncType,UID,PWD,TestCaseType,TestSuite,ExpectedResult,U_UserID,U_Pwd,U_Gender
+LoginTest,UserID,PWD,Pos,,${TODAY},1,2,"=SUM(G2,H2)"

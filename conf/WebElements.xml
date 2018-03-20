@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Navigation>
+ 
+   
+   <!-- Below is NOT used for HTML CSV Element naming-->
+   <ManageCenter-83 ClassName="manage-center" Parameter="LabelKey">
+   		<Layout  URL="ekp/LISTLAYOUTS" Parameter="URL"/>
+   </ManageCenter-83>
+   <LearningCenter-83 XPath="//a[@Id='home-btn']" Parameter="None">
+   		<UserPreference  URL="ekp/DISPLAY?DECORATEPAGE=Y" Parameter="URL"/>
+   </LearningCenter-83> 
+   <TopDownSelector>
+	<SearchText Id="KEYW" Parameter="None"/>
+	<SearchButton Name="apply-filters" Parameter="None" />
+	<AddSingle Id="ADDSINGLE" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" ></SaveBtn>
+   </TopDownSelector>
+   <CatalogSearcher>
+	<SearchText Id="SEARCHTEXT" Parameter="None"/>
+	<SearchButton Name="SEARCH" Parameter="None" />
+	<AddSingle Id="ADDSINGLE" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" />
+   </CatalogSearcher>
+   <TCenterSelector>
+	<SearchText Id="nameFilter" Parameter="None"/>
+	<SearchButton Name="SEARCH" Parameter="None" />
+	<AddSingle XPath="//div[contains(@class,'vertical')]/input[@id='ADDSINGLE']" Parameter="None" />
+	<SaveBtn XPath="//button/span[text()='Save']" Parameter="None" />
+   </TCenterSelector>
+   <ModuleSelector>
+	<SearchText Id="SEARCHTEXT" Parameter="None"/>
+	<SearchButton Name="apply-filters" Parameter="None" />
+	<AddSingle Id="ADDSINGLE" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" />
+   </ModuleSelector>
+    <RoleSelector>
+	<SearchText Id="SEARCHTEXT" Parameter="None"/>
+	<SearchButton Name="SEARCH" Parameter="None" />
+	<AddSingle Id="ADDSINGLE" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" />
+   </RoleSelector>
+   <LeftRightSelector>
+	<SearchText Id="SEARCHKEY" Parameter="None" />
+	<SearchButton Name="list" Parameter="None" />
+	<AddSingle Id="ADDSINGLE" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" />
+   </LeftRightSelector>
+   <InnerUserSelector>
+	<SearchText Id="KEYW" Parameter="None" />
+	<SearchButton Id="submit-button" Parameter="None" />
+	<AddSingle XPath="//div[contains(@class,'vertical')]/input[@id='ADDSINGLE']" Parameter="None" />
+	<SaveBtn Id="user-selector-save-button" Parameter="None" />
+   </InnerUserSelector>
+   <UserSelector>
+	<SearchText Id="KEYW" Parameter="None" />
+	<SearchButton Id="submit-button" Parameter="None" />
+	<AddSingle XPath="//div[contains(@class,'vertical')]/input[@id='ADDSINGLE']" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" />
+   </UserSelector>
+   <PermissionSelector>
+	<Selector Id="SELECTOR" Parameter="None" />
+	<IncOrgLink LinkText="desc.include.Organization" Parameter="LabelKey" />
+	<goButton Name="goButton" Parameter="None" />
+   </PermissionSelector>
+   <ClsResSelector>
+	<SearchText Id="SEARCHKEYRES" Parameter="None" />
+	<SearchButton Id="submit-button" Parameter="None" />
+	<AddSingle XPath="//div[contains(@class,'vertical')]/input[@id='ADDSINGLE']" Parameter="None" />
+	<SaveBtn Id="user-selector-save-button" Parameter="None" />
+   </ClsResSelector>
+   <FacilitySelector>
+	<SearchText Id="SEACHKEYFAC" Parameter="None" />
+	<SearchButton Id="submit-button" Parameter="None" />
+	<AddSingle XPath="//div[contains(@class,'vertical')]/input[@id='ADDSINGLE']" Parameter="None" />
+	<SaveBtn Id="user-selector-save-button" Parameter="None" />
+   </FacilitySelector>
+   <UserIDValidator>
+	<ValidatorBtn Name="VALIDATEBUTTON" Parameter="None" />
+	<SaveBtn Name="SAVEBUTTON" Parameter="None" />
+	<DataEntryList Id="IDLIST" Parameter="None" />
+   </UserIDValidator>
+   <OrgSelector_Multi>
+   </OrgSelector_Multi>
+   <OrgSelector_Single>
+   </OrgSelector_Single>
+   <CertSelector>
+    <SearchText Id="SEARCHTITLE" Parameter="None"></SearchText>
+	<SearchButton Name="apply-filters" Parameter="None" />
+	<AddSingle Id="ADDSINGLE" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" ></SaveBtn>
+   </CertSelector>
+   <OrgSelector>
+    <SearchText Id="ORGANIZATION_NAME" Parameter="None"></SearchText>
+	<SearchButton Name="apply-filters" Parameter="None" />
+	<AddSingle Name="select" Parameter="None" />
+	<SaveBtn Name="save" Parameter="None" ></SaveBtn>
+   </OrgSelector>
+   
+</Navigation>
